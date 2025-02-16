@@ -1,0 +1,34 @@
+.QuizListCont{
+ 
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+.QuizListCont ul{
+    list-style-type: number;
+    align-self: flex-start;
+    
+
+}
+.QuizListCont h1{
+    text-align: center;
+}
+.QuizListCont h2 span{
+    text-decoration: underline;
+    padding-right: 10px;
+}
+.QuizListCont p span{
+    text-decoration: underline;
+    padding-right: 10px;
+}
+.QuizListCont button{
+    margin-right: 20px;
+}
+
+.para{
+    text-align: center;
+    font-weight: bold;
+}

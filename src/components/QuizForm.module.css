@@ -1,0 +1,45 @@
+.formcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 40%;
+    align-items: center;
+}
+.formcont input{
+    background: transparent;
+    color: black;
+    width: 50%;
+    height: 30px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.formcont input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+.formcont textarea{
+    background: transparent;
+    color: black;
+    width: 50%;
+    min-width: 50%;
+    max-width: 90%;
+    height: 30px;
+    margin: 10px;
+}
+.formcont textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.formcont button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 20%;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
