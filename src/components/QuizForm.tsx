@@ -19,9 +19,9 @@ const QuizForm = ({ quiz, onSuccess }) => {
 
     try {
       if (quiz) {
-        await updateQuiz(quiz.id, quizData); // Update existing quiz
+        await updateQuiz(quiz.id, quizData); 
       } else {
-        await createQuiz(quizData); // Create new quiz
+        await createQuiz(quizData); 
       }
       onSuccess();
     } catch (error) {

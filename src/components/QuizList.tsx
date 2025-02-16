@@ -7,7 +7,7 @@ const QuizList = ({ refreshQuizzes, onEditQuiz }) => {
 
   useEffect(() => {
     fetchQuizzes();
-  }, [refreshQuizzes]); // Refresh quizzes when `refreshQuizzes` changes
+  }, [refreshQuizzes]); 
 
   const fetchQuizzes = async () => {
     const data = await getQuizzes();
@@ -16,7 +16,7 @@ const QuizList = ({ refreshQuizzes, onEditQuiz }) => {
 
   const handleDelete = async (id: number) => {
     await deleteQuiz(id);
-    fetchQuizzes(); // Refresh the list after deletion
+    fetchQuizzes(); 
   };
 
   return (
